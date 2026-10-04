@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.2
+
+- A1: Skripte werden bei jedem Öffnen geprüft, damit der Browser nach einer Aktualisierung keine alte Fassung weiterverwendet.
+- A1: Die Statusleiste des Telefons nimmt die Seitenfarbe an, auch im dunklen Design.
+
 ## 0.2.1
 
 - A1: wie 0.2.0-a1.2, mit einer Versionsnummer, die Home Assistant als neuer erkennt (die Aktualisierung war ausgegraut).
