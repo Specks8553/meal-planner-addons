@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1
+
+- A1: wie 0.2.0-a1.2, mit einer Versionsnummer, die Home Assistant als neuer erkennt (die Aktualisierung war ausgegraut).
+
 ## 0.2.0-a1.2
 
 - Öffnet jetzt auch in Home Assistant (Seitenleiste, Companion-App): die Seite blieb über HTTP leer.
