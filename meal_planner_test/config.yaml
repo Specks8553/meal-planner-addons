@@ -1,0 +1,35 @@
+# Meal Planner (Test) — the add-on store entry (A1 step 13). This file is the source; the release
+# script copies it, with DOCS.md, CHANGELOG.md and icon.png, into the public description
+# repository Specks8553/meal-planner-addons (A1-C2: descriptions public, program private).
+name: "Meal Planner (Test)"
+description: "Testinstallation von Meal Planner 0.2 – nicht für den Haushaltsalltag"
+version: "0.2.0-a1.1"
+slug: meal_planner_test
+url: "https://github.com/Specks8553/meal-planner-addons"
+# Ready-made image built in GitHub (P4-7.5, R6), private; HA downloads it with the read-only key.
+image: "ghcr.io/specks8553/meal-planner-{arch}"
+arch:
+  - aarch64
+init: false
+startup: application
+boot: auto
+# The dashboard door: HA ingress only (Companion-app panel, later the dashboard tile).
+ingress: true
+ingress_port: 8099
+panel_icon: mdi:basket-outline
+panel_title: "Meal Planner (Test)"
+# The app door listens on 8100 inside HA's network for the tunnel add-on; no host port is opened.
+watchdog: "http://[HOST]:[PORT:8099]/api/health"
+# SQLite stays consistent: the add-on pauses for the length of a backup.
+backup: cold
+map:
+  # Its own folder (/config inside, addon_configs on the share): Rückmeldungen and Fehlerberichte.
+  - type: app_config
+    read_only: false
+options:
+  admin_users: []
+schema:
+  # A1-C5 fallback: HA user names allowed to remove phones. Reading HA's user list would need the
+  # add-on's admin role (full Supervisor control), which it is not given.
+  admin_users:
+    - str
