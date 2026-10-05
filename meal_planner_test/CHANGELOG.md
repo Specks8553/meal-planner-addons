@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.6
+
+- A2: Zurück-Geste, zweiter Versuch: Firefox übersprang die Seite, weil der Rückschritt angelegt
+  wurde, bevor jemand getippt hatte; jetzt erst nach dem ersten Tippen.
+
 ## 0.2.5
 
 - A2: Die Zurück-Geste von Android führt durch die Bildschirme (Rezept → Rezepte, Einstellungen →
