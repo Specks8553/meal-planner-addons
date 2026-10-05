@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.9
+
+- A2: Rezeptfotos flackern beim Öffnen nicht mehr (iPhone); Suche und Filter liegen fest über dem
+  Raster, beim Scrollen scheint nichts mehr durch; Filter auf beiden Handys gleich groß.
+- A1 (iPhone): Die untere Leiste rückt näher an den Bildschirmrand.
+
 ## 0.2.8
 
 - A2: Zurück-Geste für Chrome: Plan ist der Startbildschirm. Zurück führt durch die Bildschirme,
