@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.8
+
+- A2: Zurück-Geste für Chrome: Plan ist der Startbildschirm. Zurück führt durch die Bildschirme,
+  von Einkauf und Rezepte zum Plan; auf dem Plan erscheint „Noch einmal zurück zum Schließen“, ein
+  zweites Zurück schließt die App.
+- A2: Die Filter bei den Rezepten sind größer; alle Rezeptkarten sind gleich hoch; über der Suche
+  scheint beim Scrollen nichts mehr durch (iPhone).
+- A1 (iPhone): Die untere Leiste sitzt wieder ganz auf dem Bildschirm (der Versuch aus 0.2.7 schob
+  sie zu weit nach unten).
+
 ## 0.2.7
 
 - A2: Zurück-Geste, dritter Versuch, diesmal am Quelltext von Firefox geprüft: Firefox zählt ein
