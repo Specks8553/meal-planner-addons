@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2.3
+
+- A2 Rezepte: Rezepte durchsuchen, filtern und sortieren; Rezept mit Zutaten, Zubereitung, Verlauf
+  und Notizen; bewerten, pausieren, Notizen schreiben, bearbeiten und löschen. Ohne Empfang bleibt
+  alles lesbar; Ändern braucht Verbindung.
+- A2 Einstellungen: Rezeptquellen (Cookidoo-Sammlungen, in Cookidoo erstellte Rezepte, lokaler
+  Rezeptordner mit übersprungenen Dateien), Farbschema pro Gerät.
+- Test: Cookidoo ist simuliert (aufgezeichnete Rezepte), solange keine Zugangsdaten eingetragen
+  sind; der Rezeptordner bekommt beim ersten Start erfundene Testrezepte.
+- A1: Firefox wählt die Farbe der Statusleiste selbst (Versuch; Symbol auf dem Startbildschirm neu hinzufügen).
+
 ## 0.2.2
 
 - A1: Skripte werden bei jedem Öffnen geprüft, damit der Browser nach einer Aktualisierung keine alte Fassung weiterverwendet.
