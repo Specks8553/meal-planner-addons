@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.4
+
+- A2: Rezeptfotos für unterwegs werden vollständig gespeichert, auch wenn die Verbindung beim
+  ersten Laden kurz abreißt (fehlende Fotos werden beim nächsten Öffnen nachgeladen).
+
 ## 0.2.3
 
 - A2 Rezepte: Rezepte durchsuchen, filtern und sortieren; Rezept mit Zutaten, Zubereitung, Verlauf
