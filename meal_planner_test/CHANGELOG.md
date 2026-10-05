@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.7
+
+- A2: Zurück-Geste, dritter Versuch, diesmal am Quelltext von Firefox geprüft: Firefox zählt ein
+  Tippen erst beim Loslassen. Zurück führt jetzt durch die Bildschirme; auf Einkauf, Plan und
+  Rezepte schließt Firefox die App (graue Seite, dann noch einmal zurück) – ohne Hinweis.
+- A1 (iPhone): Die untere Leiste reicht bis zum Bildschirmrand (Versuch); die App meldet dazu einmal
+  ihre Bildschirmmaße.
+
 ## 0.2.6
 
 - A2: Zurück-Geste, zweiter Versuch: Firefox übersprang die Seite, weil der Rückschritt angelegt
