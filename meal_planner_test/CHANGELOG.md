@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.5
+
+- A2: Die Zurück-Geste von Android führt durch die Bildschirme (Rezept → Rezepte, Einstellungen →
+  zurück) statt auf eine leere graue Seite; auf Einkauf, Plan und Rezepte schließt erst ein zweites
+  Zurück die App.
+- A2 (iPhone): Das Zeichen „Eigenes“ und der Zurück-Pfeil bei Rezepten ohne Foto haben wieder
+  ihre Größe; beim Öffnen eines Rezepts erscheint sofort das kleine Foto; über der Suche scheint
+  beim Scrollen kein Streifen des Rasters mehr durch.
+
 ## 0.2.4
 
 - A2: Rezeptfotos für unterwegs werden vollständig gespeichert, auch wenn die Verbindung beim
