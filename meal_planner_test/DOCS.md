@@ -8,9 +8,12 @@ Haushalt kommen. Die Daten hier sind Testdaten.
 - **admin_users**: HA-Benutzernamen, die gekoppelte Geräte entfernen dürfen (z. B. `adrian`).
 - **cookidoo_email**, **cookidoo_password**: die Cookidoo-Zugangsdaten. Leer: Cookidoo ist
   simuliert (aufgezeichnete Testrezepte).
-- **simulate_cookidoo_failure**: nur zum Ausprobieren — jede Cookidoo-Abfrage schlägt fehl.
+- **simulate_cookidoo_failure**: nur zum Ausprobieren — jede Cookidoo-Abfrage schlägt fehl, auch mit
+  Zugangsdaten (dann ohne Anmeldung bei Cookidoo).
 - **share_host**: wie der PC die Netzwerkfreigabe erreicht (z. B. `192.168.178.55`); wird in den
   Rezeptquellen als Pfad zum Rezeptordner angezeigt.
+- **gemini_key**: der Schlüssel aus Google AI Studio, mit dem der Agent arbeitet. Damit liest
+  Einstellungen › Agent › Modell Googles Modell-Liste. Leer: „Kein Google-Schlüssel hinterlegt“.
 
 ## Rezeptordner
 

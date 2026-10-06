@@ -3,7 +3,7 @@
 # repository Specks8553/meal-planner-addons (A1-C2: descriptions public, program private).
 name: "Meal Planner (Test)"
 description: "Testinstallation von Meal Planner 0.2 – nicht für den Haushaltsalltag"
-version: "0.2.9"
+version: "0.2.10"
 slug: meal_planner_test
 url: "https://github.com/Specks8553/meal-planner-addons"
 # Ready-made image built in GitHub (P4-7.5, R6), private; HA downloads it with the read-only key.
@@ -42,3 +42,6 @@ schema:
   simulate_cookidoo_failure: bool
   # How the PC reaches the share for "Rezeptordner" (by IP, L6), e.g. 192.168.178.55.
   share_host: "str?"
+  # B0: the Google AI Studio key the agent uses (Einstellungen › Agent › Modell reads Google's model
+  # list with it). Empty: "Kein Google-Schlüssel hinterlegt".
+  gemini_key: "password?"

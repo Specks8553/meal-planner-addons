@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.10
+
+- B0: Einstellungen › Agent › Modell (nur Admins, in Home Assistant): wählt das Google-Modell, mit
+  dem der Agent später plant und einkauft. Die Liste kommt von Google („Liste neu laden“);
+  voreingestellt ist Gemini 3.8 Flash. Der Google-Schlüssel ist eine neue Einstellung des Add-ons
+  (**gemini_key**).
+- A2 (Test): „simulate_cookidoo_failure“ wirkt jetzt auch mit eingetragenen Cookidoo-Zugangsdaten —
+  jede Abfrage schlägt fehl, ohne sich bei Cookidoo anzumelden.
+
 ## 0.2.9
 
 - A2: Rezeptfotos flackern beim Öffnen nicht mehr (iPhone); Suche und Filter liegen fest über dem
