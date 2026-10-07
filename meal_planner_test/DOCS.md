@@ -21,6 +21,13 @@ Eigene Rezepte sind `.cook`-Dateien im Ordner `rezepte` dieses Add-ons
 (`addon_configs/…_meal_planner_test/rezepte` auf der Freigabe). Danach in Meal Planner unter
 Einstellungen › Rezeptquellen „Jetzt einlesen“.
 
+## Planen
+
+Plan-Tab › Plan-Konfiguration: Zeitraum und Mahlzeiten wählen, „Plan generieren“. Der Agent
+schlägt aus den nicht pausierten Rezepten vor; jeder Vorschlag ist ein Aufruf bei Google mit dem
+Schlüssel **gemini_key** und dem Modell aus Einstellungen › Agent › Modell. Ohne Schlüssel oder
+Verbindung zeigt die Seite, was fehlt. Pläne ändern braucht eine Verbindung zum Home Assistant.
+
 ## Zugang
 
 - In Home Assistant: über das Seitenmenü „Meal Planner (Test)“.

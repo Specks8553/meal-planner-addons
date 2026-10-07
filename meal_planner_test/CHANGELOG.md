@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.2.11
+
+- B1: Eine Woche planen. Im Plan-Tab: Plan-Konfiguration (Zeitraum und Mahlzeiten aus „Standard“,
+  Extras mit Hinweis), der Agent schlägt vor (meist unter 15 Sekunden), Durchsicht mit Ja/Nein und
+  Grund, neue Vorschläge für die abgelehnten, Rezept selbst wählen, Slots bearbeiten oder entfernen,
+  Tauschen durch Halten und Ziehen, Plan bestätigen. Bestätigte Pläne liegen auf der Zeitleiste
+  (wischen, Plan-Auswahl oben, „Zum aktuellen Plan“), das Gericht oben wächst beim Antippen zum
+  Rezept. Im Rezept zeigt „Verlauf“, wann es geplant oder abgelehnt wurde; die Rezeptliste kennt
+  „Neu“ und sortiert nach Häufigkeit.
+- Jeder Vorschlag ist ein echter Aufruf bei Google mit dem Schlüssel **gemini_key** (etwa 1 Cent
+  pro Woche mit Gemini 3.8 Flash).
+
 ## 0.2.10
 
 - B0: Einstellungen › Agent › Modell (nur Admins, in Home Assistant): wählt das Google-Modell, mit
