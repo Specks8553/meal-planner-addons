@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.12
+
+- B1: Die Plan-Auswahl oben reagiert wieder auf Antippen. Tauschen durch Halten und Ziehen ist
+  ruhiger: die beiden Gerichte gleiten an ihren neuen Platz, sonst bewegt sich nichts. In der
+  Durchsicht steht der Fortschritt fest über der Liste (kein Streifen mehr darüber); ein Gericht,
+  das für eine Mahlzeit abgelehnt wurde, kommt für sie nicht wieder; ein Tipp auf einen Vorschlag
+  öffnet das Rezept, Zurück führt an dieselbe Stelle.
+
 ## 0.2.11
 
 - B1: Eine Woche planen. Im Plan-Tab: Plan-Konfiguration (Zeitraum und Mahlzeiten aus „Standard“,
