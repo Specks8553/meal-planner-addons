@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.2.14
+
+- B2: Einstellungen › Haushalt & Vorlieben. Die sechs Einflüsse stehen fest; durch Ziehen legt ihr
+  ihre Reihenfolge fest – ziehen zwei gegeneinander, gewinnt der obere. Im Freitext steht, wer ihr
+  seid und was ihr euch wünscht; der Agent bekommt ihn bei jeder Planung. Nach dem Speichern prüft
+  er im Hintergrund, ob er alles davon befolgen kann, und nennt die Stellen, die er nicht befolgt.
+  Unter „Assistent“ bekommt der Agent einen Namen und einen Artikel; die App spricht dann so von
+  ihm. Gespeichert wird mit „Speichern“, und nur mit Verbindung.
+- B2: Einstellungen › Vorlagen. Vorlagen legen fest, welche Mahlzeiten an welchen Wochentagen
+  geplant werden; anlegen, umbenennen (auch Standard), löschen, eine ist vorausgewählt. Beim neuen
+  Plan steht jede Vorlage als Chip bereit, die vorausgewählte zuerst; „+ Speichern“ macht aus dem
+  gerade eingestellten Raster eine neue Vorlage.
+- B2: Beim ersten Vorschlag eines Plans kann der Agent oben eine kurze Bemerkung zum Rezeptbestand
+  machen (z. B. wenn viele Rezepte pausiert sind); ✕ blendet sie auf allen Geräten aus. Dieselbe
+  Art kommt höchstens alle vier Wochen. Einstellungen › System › Entwicklung: „Kommentar-Sperre
+  aufheben“.
+- Farbschema (System · Hell · Dunkel) kommt jetzt aus dem gemeinsamen Design System; die Wahl
+  jedes Geräts bleibt erhalten, beim Start blitzt kein falsches Schema mehr auf.
+- Die Datenbank wird beim Update umgestellt; vorher wird eine Kopie angelegt.
+
 ## 0.2.13
 
 - B1: In der Durchsicht schwebt unten eine Leiste mit „n neu generieren“ und „Plan bestätigen“.
