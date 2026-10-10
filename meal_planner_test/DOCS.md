@@ -10,6 +10,9 @@ Haushalt kommen. Die Daten hier sind Testdaten.
   simuliert (aufgezeichnete Testrezepte).
 - **simulate_cookidoo_failure**: nur zum Ausprobieren — jede Cookidoo-Abfrage schlägt fehl, auch mit
   Zugangsdaten (dann ohne Anmeldung bei Cookidoo).
+- **dev_tools** (an, solange nicht ausgeschaltet): zeigt Admins in Meal Planner in Home Assistant
+  Einstellungen › System › Entwicklung — „Alle Pläne löschen“ und „Auf Werkszustand
+  zurücksetzen“ (gekoppelte Geräte, diese Optionen und die Berichte bleiben).
 - **share_host**: wie der PC die Netzwerkfreigabe erreicht (z. B. `192.168.178.55`); wird in den
   Rezeptquellen als Pfad zum Rezeptordner angezeigt.
 - **gemini_key**: der Schlüssel aus Google AI Studio, mit dem der Agent arbeitet. Damit liest

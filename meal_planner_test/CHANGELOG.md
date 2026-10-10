@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.2.13
+
+- B1: In der Durchsicht schwebt unten eine Leiste mit „n neu generieren“ und „Plan bestätigen“.
+  Solange eine Mahlzeit abgelehnt ist, sagt „Plan bestätigen“ beim Antippen, was noch fehlt;
+  Bestätigen nimmt alle noch nicht beantworteten Vorschläge an. Der aktuelle Tag steht als Zeile
+  unter dem Fortschritt.
+- B1: Beim Scrollen nach unten macht die Kopfzeile Platz (im Plan und in der Durchsicht), beim
+  Scrollen nach oben kommt sie zurück. Getauschte Gerichte gleiten immer gleich ruhig, auch über
+  eine weite Strecke.
+- Rezepte: Die Gesamtzeit lässt sich im Feld „Min gesamt“ selbst eintragen; die eigene Zeit steht
+  groß, die der Quelle klein in Klammern, leer gilt wieder die der Quelle. Im Menü „Kein eigenes
+  Gericht“: so markierte Rezepte schlägt der Agent nie vor, selbst wählen geht weiter. Fehlt die
+  Datei eines eigenen Rezepts, lässt es sich mit „Aus Meal Planner entfernen“ entfernen; frühere
+  Pläne zeigen es weiter.
+- Einstellungen › System › Entwicklung (nur Admins, Option **dev_tools**): „Alle Pläne löschen“ und
+  „Auf Werkszustand zurücksetzen“, jeweils mit Bestätigung.
+- Die Datenbank wird beim Update umgestellt; vorher wird eine Kopie angelegt.
+
 ## 0.2.12
 
 - B1: Die Plan-Auswahl oben reagiert wieder auf Antippen. Tauschen durch Halten und Ziehen ist
