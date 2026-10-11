@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.2.15
+
+- C1: Die Einkaufsliste kommt aus dem Plan. Beim Bestätigen steht die Liste sofort da – jede
+  Zutat jedes Rezepts als eigene Zeile, gleich benutzbar –, und der Agent fasst sie im Hintergrund
+  zusammen („Wird zusammengefasst …“, dann „Liste zusammengefasst“). Wo eine Menge keine einfache
+  Summe ist, steht sein Kommentar unter der Zeile; oben unter „Hinweise“ sein Hinweis zur Liste und
+  wie viele Zutaten er als „vermutlich da“ zu den Vorräten gelegt hat. Klappt das Zusammenfassen
+  nicht: „Noch nicht zusammengefasst · Nochmal versuchen“.
+- C1: Nach Abteilung und Nach Rezept; abhaken je Zeile oder je Rezept; Menge antippen und ändern
+  (die ganze Zeile oder den Anteil eines Rezepts); lange auf das Häkchen drücken legt eine Zutat für
+  diese Liste zu den Vorräten, Antippen dort holt sie zurück; lange auf die Zeile drücken und ziehen
+  verschiebt sie in eine andere Abteilung – gemerkt für diesen Supermarkt. Beides mit „Zurück“.
+- C1: Hinzufügen mit Menge vorn oder hinten („tomaten 500g“); Vorschläge ab zwei Buchstaben aus
+  der Liste, den Vorräten und früheren Listen; steht es schon drauf, sagt die App das. Von Hand
+  Hinzugefügtes wartet in „Undefiniert“ auf „Sortieren“.
+- C1: Zutaten aus Cookidoo-Rezepten zeigen ihr Bild (nach dem nächsten Abgleich mit Cookidoo).
+- C1: Mehrere Pläne – oben in der Kopfzeile zwischen ihren Listen wechseln; der Supermarkt-Knopf
+  sortiert nach einem anderen Markt.
+- C1: Einstellungen › Supermärkte (Abteilungen in Lauf-Reihenfolge ziehen, umbenennen, anlegen,
+  vorausgewählt) und › Vorräte (was ihr immer da habt).
+- A1s „Testliste“ ist entfernt. Die Datenbank wird beim Update umgestellt; vorher wird eine Kopie
+  angelegt.
+
 ## 0.2.14
 
 - B2: Einstellungen › Haushalt & Vorlieben. Die sechs Einflüsse stehen fest; durch Ziehen legt ihr
