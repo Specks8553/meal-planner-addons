@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.2.16
+
+- Einkaufsliste: Die Liste springt nicht mehr nach oben, wenn man eine Zeile antippt oder das
+  Scrollen auf einer Zeile beginnt; die Einstellungen-Seiten behalten ihre Stelle ebenso.
+- Einkaufsliste: Der Supermarkt lässt sich wieder wechseln (ein Tippen ins Menü schloss es bisher
+  nur), ebenso die Liste oben in der Kopfzeile. Der Supermarkt-Knopf ist jetzt immer da; mit nur
+  einem Markt führt er zu „Supermarkt hinzufügen …“.
+- Einkaufsliste: Der Pfeil fügt beim ersten Tippen hinzu, die Tastatur bleibt danach offen.
+- Einkaufsliste: „Zeigen“ unter Hinweise bringt die Vorräte genau unter den Fortschritt;
+  Abteilungsüberschriften schieben sich gegenseitig weg statt sich zu überlagern.
+- Einkaufsliste: Zurück aus den Vorräten geht jetzt mit langem Drücken, mit „Zurück“; Antippen
+  sagt, wie es geht.
+- Einkaufsliste: Beim Zusammenfassen sagt das Banner, was passiert, und zählt die Zeit mit.
+- Einstellungen › Supermärkte: Beim Ziehen scrollt die Seite am oberen und unteren Rand mit, und
+  nach dem Ablegen bleibt sie an ihrer Stelle.
+- Plan: Die Kopfzeile kommt erst am Anfang des Plans zurück; zum „Neuen Plan“ braucht es einen
+  längeren Zug.
+- Jeder Lauf des Agenten (planen, zusammenfassen, sortieren) hinterlässt eine Zeile mit Dauer und
+  Kosten im Berichte-Ordner; Rückmeldungen nennen auch die letzten Knöpfe und Tabs.
+
 ## 0.2.15
 
 - C1: Die Einkaufsliste kommt aus dem Plan. Beim Bestätigen steht die Liste sofort da – jede
