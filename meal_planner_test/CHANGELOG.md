@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.2.17
+
+- Einkaufsliste: Antippen öffnet eine Zeile – darunter jedes Rezept, das die Zutat braucht, mit
+  seiner Menge. Abgehakt wird nur noch über das Kästchen rechts.
+- Einkaufsliste: Nach Rezept lässt sich jedes Rezept über seine Überschrift zu- und aufklappen;
+  das Handy merkt es sich pro Liste.
+- Einkaufsliste: Was aus den Vorräten zurückkommt, landet in seiner Abteilung statt in
+  Undefiniert, mit derselben Animation wie auf dem Weg hinein.
+- Einkaufsliste: Beim Wechsel des Supermarkts kommt jede Zeile in ihre gemerkte Abteilung oder in
+  die gleichnamige; den Rest sortiert der Agent sofort ein.
+- Einkaufsliste: „Zeigen“ gleitet zu den Vorräten statt zu springen; Vorräte, Hinweise und
+  aufgeklappte Zeilen öffnen und schließen ruhiger. Abteilungsüberschriften gehen über die volle
+  Breite.
+- Hinweise unten (Toasts) lassen sich zur Seite wegwischen.
+- Das Zusammenfassen ist schneller: gleiche Zutaten mit gleicher Einheit rechnet die App selbst
+  zusammen, der Agent bekommt weniger zu tun. Wird eine Antwort verworfen, steht der Grund im
+  Berichte-Ordner.
+- Rezeptordner: Cooklang-Dateien mit „prep time“, „cook time“ und „total time“ bringen ihre
+  Zeiten mit; optionale Zutaten („@?Reis“) werden gelesen statt die Datei zu überspringen.
+
 ## 0.2.16
 
 - Einkaufsliste: Die Liste springt nicht mehr nach oben, wenn man eine Zeile antippt oder das
