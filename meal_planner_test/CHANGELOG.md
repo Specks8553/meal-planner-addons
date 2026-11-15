@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.19
+
+- Die Leiste unten (HA, Plan, Einkauf, Rezepte) kommt zurück, sobald die Tastatur zu ist – auch
+  wenn man sie mit der Zurück-Geste schließt und das Feld noch ausgewählt bleibt.
+- Einkaufsliste: Schließt man eine aufgeklappte Zeile, bleibt ihr Inhalt oben stehen, statt erst
+  nach unten zu springen und dann hochzurutschen.
+
 ## 0.2.18
 
 - Plan: Zieht man zum früheren Plan hinauf, liegt dessen Bild nicht mehr über der Kopfzeile des
