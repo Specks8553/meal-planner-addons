@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.2.18
+
+- Plan: Zieht man zum früheren Plan hinauf, liegt dessen Bild nicht mehr über der Kopfzeile des
+  nächsten Plans.
+- Einkaufsliste: Eine aufgeklappte Zeile gleitet auf ihre Höhe, ohne zu weit zu gehen und
+  zurückzuspringen; kommt etwas aus den Vorräten zurück, macht die Liste ihm ruhig Platz.
+- Einkaufsliste: „Zeigen“ heißt jetzt „Ansehen“; unter den Vorräten bleibt nur so viel Platz wie
+  nötig. Die Vorräte heißen schlicht „Vorräte“, eine Zeile von dort „meist im Haus“.
+- Einkaufsliste: Lange Rezeptnamen in einer aufgeklappten Zeile enden mit „…“, die Menge bleibt
+  sichtbar. Beim Ändern einer Menge bleibt die Zeile über dem Eingabefeld.
+- Das Eingabefeld der Einkaufsliste und die Felder unter Supermärkte und Vorräte zeigen Chromes
+  Leiste für Passwörter, Karten und Adressen nicht mehr.
+- Das Zusammenfassen verwirft keine Antwort mehr, weil eine Menge 0 ist – das sparte bisher einen
+  zweiten Durchgang.
+- Rezeptordner: Ein gleichnamiges Bild neben einer `.cook`-Datei wird ihr Rezeptbild.
+
 ## 0.2.17
 
 - Einkaufsliste: Antippen öffnet eine Zeile – darunter jedes Rezept, das die Zutat braucht, mit

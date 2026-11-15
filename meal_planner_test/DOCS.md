@@ -24,6 +24,10 @@ Eigene Rezepte sind `.cook`-Dateien im Ordner `rezepte` dieses Add-ons
 (`addon_configs/…_meal_planner_test/rezepte` auf der Freigabe). Danach in Meal Planner unter
 Einstellungen › Rezeptquellen „Jetzt einlesen“.
 
+Ein Bild zum Rezept: eine Datei mit gleichem Namen daneben (`Butter-Tofu.jpg` neben
+`Butter-Tofu.cook`; auch `.png`, `.webp`) oder eine Zeile `image: bilder/butter-tofu.jpg` im
+Kopf der Datei, relativ zur Datei und innerhalb des Ordners.
+
 ## Planen
 
 Plan-Tab › Plan-Konfiguration: Zeitraum und Mahlzeiten wählen, „Plan generieren“. Der Agent
