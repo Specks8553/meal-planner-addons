@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.21
+
+- Einkaufsliste: Nur Zutaten, die mehrere Rezepte brauchen, lassen sich aufklappen. Beim
+  Aufklappen bleiben Bild und Name einer Zutat, wo sie sind.
+- Rezept: Ein Tipp auf Zutaten, Zubereitung oder Notizen schiebt das Rezept sanft nach oben, bis
+  der Titel oben steht.
+- Notizfeld: wächst mit dem Text und bricht um; Enter macht eine neue Zeile, + speichert. Beim
+  Antippen steht das ganze Feld über der Tastatur.
+- Die App meldet einmal, was die Tastatur auf dem Gerät tut (für den hellen Streifen in Chrome).
+
 ## 0.2.20
 
 - Die Tastatur legt sich über die App, statt sie zu verkleinern – der helle Streifen über der
