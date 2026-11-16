@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.20
+
+- Die Tastatur legt sich über die App, statt sie zu verkleinern – der helle Streifen über der
+  Tastatur beim Öffnen ist weg. Eingabeleiste, Mengenfeld und Notizfeld bleiben über der Tastatur.
+- Zurück-Geste bei offener Tastatur schließt nur die Tastatur; man bleibt, wo man ist.
+- Einkaufsliste: Eine Zeile gleitet beim Schließen zu, ohne dass ihr Inhalt erst nach unten rutscht.
+- Rezept: drei Reiter – Zutaten, Zubereitung, Notizen. Unter den Notizen und ihrem Eingabefeld
+  steht jetzt der Verlauf.
+
 ## 0.2.19
 
 - Die Leiste unten (HA, Plan, Einkauf, Rezepte) kommt zurück, sobald die Tastatur zu ist – auch
