@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.22
+
+- Einkaufsliste: Der Name einer Zutat hat Vorrang. Eine lange Menge (z. B. "2 ½ TL + 3 Prisen +
+  0,5–0,75 TL") bricht rechts nach einem "+" um oder rückt in die zweite Zeile, statt den Namen
+  zu verdecken.
+- Vorräte: Ein Tipp auf einen Artikel zeigt, welche Rezepte ihn brauchen; lange drücken holt ihn
+  wie bisher zurück.
+
 ## 0.2.21
 
 - Einkaufsliste: Nur Zutaten, die mehrere Rezepte brauchen, lassen sich aufklappen. Beim
