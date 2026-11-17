@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.23
+
+- Einkaufsliste: Gemini Decision 1 macht die Liste – in ein paar Sekunden statt ein bis zwei
+  Minuten. Verschiedene Einheiten stehen nebeneinander (½ TL + 2 Prisen), ohne Umrechnung und ohne
+  Kommentar. Klappt es nicht, macht Gemini 3.8 Flash die Liste wie bisher.
+- Einstellungen › Agent › Einkaufsliste: Admins wählen, welches Modell die Liste macht.
+- Eine Zeile mit Mengen in verschiedenen Einheiten wird sofort neu berechnet, ohne Warten.
+
 ## 0.2.22
 
 - Einkaufsliste: Der Name einer Zutat hat Vorrang. Eine lange Menge (z. B. "2 ½ TL + 3 Prisen +
