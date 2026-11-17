@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.2.24
+
+- Rezepte: Eigene Rezepte bekommen ein Foto direkt vom Handy – „Foto hinzufügen“ öffnet Kamera
+  oder Galerie. Das Foto landet neben der Rezeptdatei im Rezeptordner. Im ⋮-Menü: „Foto ändern“
+  und „Foto entfernen“ (kommt in den Ordner „.entfernt“, „Rückgängig“ holt es zurück).
+- Plan: Im aufgeklappten Rezept lässt sich die Bewertung direkt antippen. Die Zurück-Geste klappt
+  ein aufgeklapptes Rezept wieder zu.
+- Bewertung: Die Sterne flackern nach dem Antippen nicht mehr.
+- Einkaufsliste: Mengen in verschiedenen Einheiten werden zusammengerechnet – TL und EL in eine
+  Menge, mit bekanntem Gewicht in Gramm („1 EL ≈ 14 g“), eine Prise geht in der Menge auf.
+  Stück, Dose, Glas und Bund bleiben, wie sie sind. Eine neu berechnete Zeile erscheint sofort.
+- Einkaufsliste: Eine Änderung, die der Server nicht annehmen kann, hält die anderen nicht mehr
+  auf – die App sagt, welche es war, alles andere wird gesendet. „steht schon auf der Liste“
+  verdeckt die Zeile nicht mehr.
+- Test-Add-on: „Auf Werkszustand zurücksetzen“ legt neben Standard auch Rewe mit 30 Abteilungen an.
+
 ## 0.2.23
 
 - Einkaufsliste: Gemini Decision 1 macht die Liste – in ein paar Sekunden statt ein bis zwei
