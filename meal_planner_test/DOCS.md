@@ -17,6 +17,9 @@ Haushalt kommen. Die Daten hier sind Testdaten.
   Rezeptquellen als Pfad zum Rezeptordner angezeigt.
 - **gemini_key**: der Schlüssel aus Google AI Studio, mit dem der Agent arbeitet. Damit liest
   Einstellungen › Agent › Modell Googles Modell-Liste. Leer: „Kein Google-Schlüssel hinterlegt“.
+- **dev_key**: nur mit **dev_tools** — ein Schlüssel (mindestens 24 Zeichen), mit dem Claude vom PC
+  aus Entwicklung erreicht (Zählen, Pläne löschen, Werkszustand), auch wenn du nicht zu Hause bist.
+  Derselbe Schlüssel steht am PC in der Datei `.dev-key` im Projektordner. Leer: kein solcher Zugang.
 
 ## Rezeptordner
 

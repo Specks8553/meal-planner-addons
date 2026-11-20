@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.27
+
+- Admin auf dem Telefon: In Home Assistant unter Einstellungen › Geräte lässt sich ein Telefon
+  eines Admins zum Admin-Gerät machen („Admin auf diesem Gerät“, fragt beim Einschalten nach).
+  Auf diesem Telefon stehen dann Agent › Modell und Einkaufsliste, Geräte und Entwicklung in den
+  Einstellungen – von überall. Sich selbst entfernen kann das Telefon nicht.
+- Agent-Läufe (für Admins): was der Agent in einem Monat gemacht hat und was es gekostet hat –
+  Summe oben, darunter jeder Lauf mit Uhrzeit, Aufgabe, Modell, Dauer und Kosten.
+- Neue Option **dev_key** (nur Test-Add-on): damit erreicht Claude Entwicklung vom PC aus.
+
 ## 0.2.26
 
 - Plan: Unter dem neuesten Plan steht nicht mehr gleich der neue Plan, sondern „Ende des Plans“
