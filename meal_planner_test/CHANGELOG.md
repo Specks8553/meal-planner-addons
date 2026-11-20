@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.25
+
+- Rezepte: Zutaten lassen sich pro Rezept ersetzen oder weglassen – eine Zutat antippen, „Zutat
+  ersetzen“: z. B. Veggie-Hack statt Rinderhackfleisch, die Menge wie im Rezept oder eigene.
+  Cookidoos Alternative ist ein Vorschlag im selben Fenster (die Box „Alternativen“ ist weg).
+  Die Einkaufsliste und der Agent nehmen ab dann den Ersatz; eine weggelassene Zutat kommt nicht
+  auf die Liste. Cookidoo selbst bleibt unverändert.
+
 ## 0.2.24
 
 - Rezepte: Eigene Rezepte bekommen ein Foto direkt vom Handy – „Foto hinzufügen“ öffnet Kamera
