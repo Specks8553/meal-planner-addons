@@ -1,5 +1,32 @@
 # Changelog
 
+## 0.2.26
+
+- Plan: Unter dem neuesten Plan steht nicht mehr gleich der neue Plan, sondern „Ende des Plans“
+  und ab wann nichts geplant ist. Weiterziehen oder Antippen öffnet „Neuer Plan“.
+- Plan: Ein Tipp auf das Datum oben öffnet die Planauswahl.
+- Plan: Wer ein Essen verschiebt, kann jetzt auch nach oben scrollen – knapp unter der großen Karte
+  halten.
+- Einkaufsliste: In „Nach Rezept“ steht „Manuell hinzugefügt“ jetzt oben.
+- Einkaufsliste: Ist nichts ungesendet, kommt bei Verbindungsproblemen kein roter Hinweis mehr,
+  sondern die ruhige Zeile „Keine Verbindung zum Server“.
+- Rezepte: Neuer Filter „Eigene“ für die Rezepte, die nicht von Cookidoo kommen.
+- Update: Die App übernimmt bei einem Update nur Dateien der neuen Version – nach 0.2.25 fehlte
+  auf einem Handy die Gestaltung der Ersetzungen.
+- Einkaufsliste: Wo sich der Agent beim Zusammenfassen nicht sicher war, steht in den Hinweisen
+  „N Zuordnungen unsicher · Prüfen“. Eine Karte nach der anderen: in welche Abteilung, meist im
+  Haus oder nicht, eine Zeile oder zwei. Eine Antwort ändert die Liste sofort und wird gemerkt;
+  was offen bleibt, bleibt, wie der Agent es gelegt hat.
+- Einkaufsliste: Wer eine Zeile in eine andere Abteilung zieht, gibt dem Agenten damit ein
+  Beispiel für diese Abteilung.
+- Einstellungen › Supermärkte: Jede Abteilung hat eine eigene Seite mit Name, Beispielen (was
+  dorthin gehört – der Agent liest sie beim Sortieren) und „Abteilung entfernen“. Die Beispiele
+  der Standard-Abteilungen sind schon eingetragen.
+- Einstellungen › Supermärkte: Fehlt einem Supermarkt eine Standard-Abteilung, steht sie unter
+  „Vorschläge“; beim Verlassen fragt die App einmal („So lassen“ oder „Hinzufügen“). Neue
+  Supermärkte starten mit 14 Abteilungen, neu ist „Backzutaten“.
+- Im Hintergrund: Die App zählt Zutaten ohne eigenes Icon; die Ansicht dafür kommt später.
+
 ## 0.2.25
 
 - Rezepte: Zutaten lassen sich pro Rezept ersetzen oder weglassen – eine Zutat antippen, „Zutat
