@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2.29
+
+- Plan: „Slots bearbeiten“ steht jetzt auch im ⋮ eines laufenden und eines kommenden Plans.
+- Plan: Beim Vorschlag oben im großen Essen öffnet die ganze Zeile den Vorschlag, nicht nur
+  „Ansehen ›“.
+- Einkaufsliste: Bei „Unsichere Zuordnungen“ und „Menge prüfen“ führen ‹ und › durch die Einträge –
+  vor und zurück, auch ohne zu antworten.
+- Ohne Verbindung steht oben nur noch „Offline · zuletzt synchronisiert …“; Aktionen sagen
+  „Braucht Verbindung“.
+- Kürzere Texte in der ganzen App: viele Erklärsätze sind kürzer oder weg.
+
 ## 0.2.28
 
 - Plan: Ein bestätigter Plan lässt sich ändern. Ein Essen gedrückt halten: „Automatisch ersetzen“,
