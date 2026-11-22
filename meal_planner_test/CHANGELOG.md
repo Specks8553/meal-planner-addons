@@ -1,5 +1,33 @@
 # Changelog
 
+## 0.2.28
+
+- Plan: Ein bestätigter Plan lässt sich ändern. Ein Essen gedrückt halten: „Automatisch ersetzen“,
+  „Rezept selbst wählen“, „Slots bearbeiten“, „Slot entfernen“. Ist für das Essen schon etwas
+  gekauft, sagt die App es vorher; Gekauftes bleibt als gekauft auf der Liste.
+- Plan: „Automatisch ersetzen“ hängt den Vorschlag des Agenten unter das Essen – das alte Essen gilt,
+  bis ihr „Ja“ sagt. „Nein“ fragt nach dem Grund, dann „Neuer Vorschlag“ oder „Altes behalten“.
+  „Zurück“ im Hinweis danach holt das alte Essen wieder.
+- Plan: Über „Slots bearbeiten“ kommen neue Mahlzeiten dazu; sie bekommen einen Vorschlag und
+  zählen erst nach „Ja“.
+- Plan: Das ⋮ neben dem Zahnrad – „Ende früher“ (der letzte Tag als Auswahl), „Plan löschen“
+  und beim Entwurf „Entwurf verwerfen“, jeweils mit „Rückgängig“.
+- Einkaufsliste: Ändert sich der Plan, passt sich die Liste an – was das alte Essen brauchte, geht,
+  was das neue braucht, kommt dazu („Liste angepasst · N weg, M dazu“). Abgehaktes bleibt.
+- Einkaufsliste: Wird ein Plan gelöscht, bleiben selbst hinzugefügte Artikel in einer Liste
+  „Keinem Plan zugeordnet“, bis der nächste Plan sie übernimmt.
+- Einkaufsliste: Eine Menge, die ihr selbst geändert habt, bleibt, wenn ein Rezept wegfällt – ein
+  Punkt und „Menge prüfen“ zeigen es, „Prüfen“ in den Hinweisen fragt nach.
+- Rezepte: Im ⋮ eines Rezepts „Zum Plan hinzufügen“ – Plan, Tag und Mahlzeit wählen; ein freies
+  Essen kommt dazu, ein belegtes wird ersetzt.
+- Zwei Handys: Ändert das andere Handy ein Essen oder den Plan, während bei euch ein Menü oder
+  Fenster dazu offen ist, ändert ihr nichts Falsches – die App sagt, wer es inzwischen geändert hat.
+- Ohne Verbindung sagen alle diese Änderungen „Braucht Verbindung“ und ändern nichts.
+- Einstellungen: Wer eine Kategorie öffnet und zurückgeht, landet wieder an derselben Stelle –
+  auch bei Supermärkte › Markt › Abteilung, auf jeder Ebene.
+- Rezepte, die ihr in Cookidoo selbst erstellt habt, haben jetzt „In Cookidoo öffnen“.
+- Bei diesen Rezepten sagt der Hinweis zur eigenen Zeit „Zeit von Cookidoo“ statt „von der Datei“.
+
 ## 0.2.27
 
 - Admin auf dem Telefon: In Home Assistant unter Einstellungen › Geräte lässt sich ein Telefon
