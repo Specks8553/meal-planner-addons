@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.2.30
+
+- Plan: Nach „Plan generieren“ bleibt der neue Plan auf dem Bildschirm, statt zum alten zu springen.
+- Plan: Die Karte einer neuen Mahlzeit bewegt sich beim Scrollen mit den anderen, ohne zu springen.
+- Einkaufsliste: Im Prüfen-Blatt wischt ihr seitlich zum nächsten oder vorigen Eintrag; das Blatt
+  behält seine Höhe.
+- Blätter von unten schließen mit einem Wisch nach unten.
+- Rezepte: „Tipps“ aus Cookidoo stehen unter den Zutaten.
+- Rezepte: Die Thermomix-Zeichen (z. B. Linkslauf) in der Zubereitung werden richtig angezeigt.
+- Rezepte: Das + bei den Notizen öffnet die Tastatur.
+- Rezepte: „Zurück“ nimmt zuerst einen aktiven Filter weg.
+- Rezepte: Passende Symbole für „Pausieren“ und „Gesamtzeit“.
+- Ohne Verbindung sagen Aktionen „Offline · braucht Verbindung“.
+
 ## 0.2.29
 
 - Plan: „Slots bearbeiten“ steht jetzt auch im ⋮ eines laufenden und eines kommenden Plans.
